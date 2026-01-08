@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\ExcelToJson.csproj": {}
+    "D:\\Git\\Tool.CodeGenerator\\ExcelToJson\\ExcelToJson\\ExcelToJson.csproj": {}
   },
   "projects": {
-    "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\ExcelToJson.csproj": {
+    "D:\\Git\\Tool.CodeGenerator\\ExcelToJson\\ExcelToJson\\ExcelToJson.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\ExcelToJson.csproj",
+        "projectUniqueName": "D:\\Git\\Tool.CodeGenerator\\ExcelToJson\\ExcelToJson\\ExcelToJson.csproj",
         "projectName": "ExcelToJson",
-        "projectPath": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\ExcelToJson.csproj",
+        "projectPath": "D:\\Git\\Tool.CodeGenerator\\ExcelToJson\\ExcelToJson\\ExcelToJson.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\obj\\",
+        "outputPath": "D:\\Git\\Tool.CodeGenerator\\ExcelToJson\\ExcelToJson\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
