@@ -1,0 +1,235 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Git\\nac\\ExcelToJson\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|d:\\git\\nac\\exceltojson\\exceltojson\\converthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|solutionrelative:exceltojson\\converthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|d:\\git\\nac\\exceltojson\\exceltojson\\formatter\\client_jsondatamanagerformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|solutionrelative:exceltojson\\formatter\\client_jsondatamanagerformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|d:\\git\\nac\\exceltojson\\exceltojson\\stringhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|solutionrelative:exceltojson\\stringhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|d:\\git\\nac\\exceltojson\\exceltojson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|solutionrelative:exceltojson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|D:\\Git\\nac\\ExcelToJson\\exceltojson\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|solutionrelative:exceltojson\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|d:\\git\\nac\\exceltojson\\exceltojson\\formatter\\jsondatamanagerformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|solutionrelative:exceltojson\\formatter\\jsondatamanagerformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|d:\\git\\nac\\exceltojson\\exceltojson\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|solutionrelative:exceltojson\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|d:\\git\\nac\\exceltojson\\exceltojson\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|solutionrelative:exceltojson\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|d:\\git\\nac\\exceltojson\\exceltojson\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|solutionrelative:exceltojson\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|d:\\git\\nac\\exceltojson\\exceltojson\\formatter\\server_jsondatamanagerformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|solutionrelative:exceltojson\\formatter\\server_jsondatamanagerformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|d:\\git\\nac\\exceltojson\\exceltojson\\utills\\defines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|solutionrelative:exceltojson\\utills\\defines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|d:\\git\\nac\\exceltojson\\exceltojson\\manager\\inimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|solutionrelative:exceltojson\\manager\\inimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|d:\\git\\nac\\exceltojson\\exceltojson\\manager\\managers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26A177B-6D71-48DE-B633-4D13ABFD955F}|ExcelToJson\\ExcelToJson.csproj|solutionrelative:exceltojson\\manager\\managers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StringHelper.cs",
+              "DocumentMoniker": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\StringHelper.cs",
+              "RelativeDocumentMoniker": "ExcelToJson\\StringHelper.cs",
+              "ToolTip": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\StringHelper.cs",
+              "RelativeToolTip": "ExcelToJson\\StringHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T07:07:21.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "ExcelToJson\\Form1.Designer.cs",
+              "ToolTip": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Form1.Designer.cs",
+              "RelativeToolTip": "ExcelToJson\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T06:35:30.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Form1.resx",
+              "RelativeDocumentMoniker": "ExcelToJson\\Form1.resx",
+              "ToolTip": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Form1.resx",
+              "RelativeToolTip": "ExcelToJson\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-12-08T06:35:32.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Form1.cs",
+              "RelativeDocumentMoniker": "ExcelToJson\\Form1.cs",
+              "ToolTip": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Form1.cs",
+              "RelativeToolTip": "ExcelToJson\\Form1.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvxUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T06:34:51.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JsonDataManagerFormatter.cs",
+              "DocumentMoniker": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Formatter\\JsonDataManagerFormatter.cs",
+              "RelativeDocumentMoniker": "ExcelToJson\\Formatter\\JsonDataManagerFormatter.cs",
+              "ToolTip": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Formatter\\JsonDataManagerFormatter.cs",
+              "RelativeToolTip": "ExcelToJson\\Formatter\\JsonDataManagerFormatter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T02:33:57.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConvertHandler.cs",
+              "DocumentMoniker": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\ConvertHandler.cs",
+              "RelativeDocumentMoniker": "ExcelToJson\\ConvertHandler.cs",
+              "ToolTip": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\ConvertHandler.cs",
+              "RelativeToolTip": "ExcelToJson\\ConvertHandler.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T08:55:47.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Client_JsonDataManagerFormatter.cs",
+              "DocumentMoniker": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Formatter\\Client_JsonDataManagerFormatter.cs",
+              "RelativeDocumentMoniker": "ExcelToJson\\Formatter\\Client_JsonDataManagerFormatter.cs",
+              "ToolTip": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Formatter\\Client_JsonDataManagerFormatter.cs",
+              "RelativeToolTip": "ExcelToJson\\Formatter\\Client_JsonDataManagerFormatter.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAADwv3cAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T07:04:47.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Managers.cs",
+              "DocumentMoniker": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Manager\\Managers.cs",
+              "RelativeDocumentMoniker": "ExcelToJson\\Manager\\Managers.cs",
+              "ToolTip": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Manager\\Managers.cs",
+              "RelativeToolTip": "ExcelToJson\\Manager\\Managers.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwCAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T06:01:24.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Program.cs",
+              "RelativeDocumentMoniker": "ExcelToJson\\Program.cs",
+              "ToolTip": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Program.cs",
+              "RelativeToolTip": "ExcelToJson\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T06:00:56.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Form1.cs",
+              "RelativeDocumentMoniker": "ExcelToJson\\Form1.cs",
+              "ToolTip": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "ExcelToJson\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T06:00:53.112Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InIManager.cs",
+              "DocumentMoniker": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Manager\\InIManager.cs",
+              "RelativeDocumentMoniker": "ExcelToJson\\Manager\\InIManager.cs",
+              "ToolTip": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Manager\\InIManager.cs",
+              "RelativeToolTip": "ExcelToJson\\Manager\\InIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T06:03:12.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Defines.cs",
+              "DocumentMoniker": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Utills\\Defines.cs",
+              "RelativeDocumentMoniker": "ExcelToJson\\Utills\\Defines.cs",
+              "ToolTip": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Utills\\Defines.cs",
+              "RelativeToolTip": "ExcelToJson\\Utills\\Defines.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T06:04:45.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Server_JsonDataManagerFormatter.cs",
+              "DocumentMoniker": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Formatter\\Server_JsonDataManagerFormatter.cs",
+              "RelativeDocumentMoniker": "ExcelToJson\\Formatter\\Server_JsonDataManagerFormatter.cs",
+              "ToolTip": "D:\\Git\\nac\\ExcelToJson\\ExcelToJson\\Formatter\\Server_JsonDataManagerFormatter.cs",
+              "RelativeToolTip": "ExcelToJson\\Formatter\\Server_JsonDataManagerFormatter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T02:35:14.054Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
