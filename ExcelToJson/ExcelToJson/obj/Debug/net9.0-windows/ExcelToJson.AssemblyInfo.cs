@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExcelToJson")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad3115323266d61c690dc7bbf6f266b75a219e3c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16e2757b4f7765f80d93e41df420f74e9db65555")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExcelToJson")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExcelToJson")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

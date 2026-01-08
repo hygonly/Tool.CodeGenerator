@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExcelToJson.Utills
+namespace ExcelToJson.Utils
 {
     public class Defines
     {

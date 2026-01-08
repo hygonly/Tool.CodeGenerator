@@ -1,3 +1,5 @@
+using ExcelToJson.Manager;
+
 namespace ExcelToJson
 {
     public partial class Form1 : Form
@@ -9,50 +11,55 @@ namespace ExcelToJson
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            listBox1.Items.Clear();
+            foreach (var item in Managers.Convert.GetExcelFiles())
+                listBox1.Items.Add(item);
 
+            excelPathBox.Text = Managers.InI.GetValue(Utils.Defines.InIKeyType.ExcelPath);
+            clientJsonBox.Text = Managers.InI.GetValue(Utils.Defines.InIKeyType.ClientJsonPath);
+            clientSourceBox.Text = Managers.InI.GetValue(Utils.Defines.InIKeyType.ClientSourcePath);
+            serverJsonBox.Text = Managers.InI.GetValue(Utils.Defines.InIKeyType.ServerJsonPath);
+            serverSourceBox.Text = Managers.InI.GetValue(Utils.Defines.InIKeyType.ServerSourcePath);
         }
 
-        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        private void refreshButton_Click(object sender, EventArgs e)
         {
-
+            listBox1.Items.Clear();
+            foreach (var item in Managers.Convert.GetExcelFiles())
+                listBox1.Items.Add(item);
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void excelPath_TextChanged(object sender, EventArgs e)
         {
+            Managers.InI.SetValue(Utils.Defines.InIKeyType.ExcelPath, excelPathBox.Text);
+        }
 
+        private void clientJsonBox_TextChanged(object sender, EventArgs e)
+        {
+            Managers.InI.SetValue(Utils.Defines.InIKeyType.ClientJsonPath, clientJsonBox.Text);
+        }
+
+        private void clientSourceBox_TextChanged(object sender, EventArgs e)
+        {
+            Managers.InI.SetValue(Utils.Defines.InIKeyType.ClientSourcePath, clientSourceBox.Text);
+        }
+
+        private void serverJsonBox_TextChanged(object sender, EventArgs e)
+        {
+            Managers.InI.SetValue(Utils.Defines.InIKeyType.ServerJsonPath, serverJsonBox.Text);
+        }
+
+        private void serverSourceBox_TextChanged(object sender, EventArgs e)
+        {
+            Managers.InI.SetValue(Utils.Defines.InIKeyType.ServerSourcePath, serverSourceBox.Text);
+        }
+
+        private void buildButton_Click(object sender, EventArgs e)
+        {
+            Managers.Convert.BuildExcelDataToClient();
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void checkedListBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint_1(object sender, PaintEventArgs e)
         {
 
         }

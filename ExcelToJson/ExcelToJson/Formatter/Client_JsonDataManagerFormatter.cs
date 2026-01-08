@@ -1,5 +1,5 @@
 ﻿using ExcelToJson.Manager;
-using ExcelToJson.Utills;
+using ExcelToJson.Utils;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -33,13 +33,13 @@ public class {0}Script
 
 public partial class JsonDataManager
 {{
-    private List<{0}Script> Get{0}ScriptList { get { return list{0}Script; } 
+    private List<{0}Script> Get{0}ScriptList {{ get {{ return list{0}Script; }} }}
     private List<{0}Script> list{0}Script;
 
     public class {0}ScriptAll
-    {
+    {{
         public List<{0}Script> result;
-    }
+    }}
 
     public async UniTask Load{0}Script()
     {{
@@ -60,7 +60,7 @@ public partial class JsonDataManager
         }}
         catch (Exception e)
         {{
-            Debug.LogError($""Load Failed: {2} Script\n {e.Message}"");
+            Debug.LogError($""Load Failed: {2} Script\n {{e.Message}}"");
         }}
         
         list{0}Script = resultScript;
@@ -128,10 +128,14 @@ public partial class JsonDataManager
                 foreach (SourceFieldInfo fieldInfo in fieldInfos)
                     field += "\t" + string.Format(_format.FieldFormat, fieldInfo.type, fieldInfo.name);
 
-                string path = string.Concat(Managers.InI.GetValue(Defines.InIKeyType.ClientSourcePath), "/", directory, "/", file, ".json");
+                string directoryPath = string.Concat(Managers.InI.GetValue(Defines.InIKeyType.ClientSourcePath), "/", directory);
+                string fullPath = string.Concat(directoryPath, "/", file, ".cs");
+                if (Directory.Exists(directoryPath) == false)
+                    Directory.CreateDirectory(directoryPath);
+
                 string className = StringHelper.GetClassName(file);
                 string result = string.Format(_format.ClientJsonDataManagerFormat, className, directory, file + ".json", field);
-                File.WriteAllText(path, result);
+                File.WriteAllText(fullPath, result);
                 return className;
             }
 

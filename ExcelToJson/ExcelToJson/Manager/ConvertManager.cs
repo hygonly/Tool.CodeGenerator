@@ -1,7 +1,8 @@
 ﻿using ExcelDataReader;
 using ExcelToJson.Manager;
-using ExcelToJson.Utills;
+using ExcelToJson.Utils;
 using System.Data;
+using System.Text;
 
 namespace ExcelToJson
 {
@@ -9,18 +10,23 @@ namespace ExcelToJson
     public record struct JsonFieldInfo(string name, string value);
     public record struct JsonInfo(string directory, string fileName, List<JsonFieldInfo> infos);
 
-    public class ConvertHandler
+    public class ConvertManager
     {
-        public static void BuildExcelDataToClient()
+        public List<FileInfo> GetExcelFiles()
         {
             string excelPath = Managers.InI.GetValue(Defines.InIKeyType.ExcelPath);
             if (string.IsNullOrEmpty(excelPath) == true)
-                return;
+                return new List<FileInfo>();
 
-            JsonDataManagerFormatter.Builder builder = new JsonDataManagerFormatter.Builder();
             DirectoryInfo directory = new DirectoryInfo(excelPath);
+            return directory.GetFiles().ToList();
+        }
+
+        public void BuildExcelDataToClient()
+        {
+            JsonDataManagerFormatter.Builder builder = new JsonDataManagerFormatter.Builder();
             var classNames = new List<string>();
-            foreach (FileInfo fileInfo in directory.GetFiles())
+            foreach (FileInfo fileInfo in GetExcelFiles())
             {
                 FileStream stream = new FileStream(fileInfo.FullName, FileMode.Open, FileAccess.Read);
                 using (var reader = ExcelReaderFactory.CreateReader(stream))
@@ -58,7 +64,7 @@ namespace ExcelToJson
             builder.CreateJsonDataManagerLoader(classNames);
         }
 
-        private static List<SourceFieldInfo> ConvertSourceFieldInfo(DataRowCollection collection)
+        private List<SourceFieldInfo> ConvertSourceFieldInfo(DataRowCollection collection)
         {
             List<SourceFieldInfo> result = new List<SourceFieldInfo>();
             for (int i = 0; i < collection.Count; i++)
@@ -74,7 +80,7 @@ namespace ExcelToJson
             return result;
         }
 
-        private static List<JsonFieldInfo> ConvertJsonFieldInfo(DataRowCollection collection, List<SourceFieldInfo> fieldInfos)
+        private List<JsonFieldInfo> ConvertJsonFieldInfo(DataRowCollection collection, List<SourceFieldInfo> fieldInfos)
         {
             List<JsonFieldInfo> result = new List<JsonFieldInfo>();
             for (int i = 0; i < collection.Count; i++)
