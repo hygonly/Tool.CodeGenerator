@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ExcelToJson
 {
-    public partial class JsonDataManagerFormatter
+    public partial class Client_JsonDataManagerFormatter
     {
         //{0}: Class name
         //{1}: Parent file name
@@ -21,8 +21,10 @@ namespace ExcelToJson
 /*Source: ExcelToJson*/
 /********************************************************/
 
-using Cysharp.Threading.Tasks;
+using System;
 using System.Collections.Generic;
+using UnityEngine;
+using Cysharp.Threading.Tasks;
 using Newtonsoft.Json;
 
 [System.Serializable]
@@ -111,30 +113,42 @@ public partial class JsonDataManager
 
         public class Builder
         {
-            JsonDataManagerFormatter _format;
+            JsonFormatter _jsonFormat;
+            Client_JsonDataManagerFormatter _jsonDataManagerFormat;
+
             public Builder()
             {
-                _format = new JsonDataManagerFormatter();
-            }
-            
-            public string CreateJson(JsonInfo fieldInfo, string directory, string file)
-            {
-                return "";
+                _jsonFormat = new JsonFormatter();
+                _jsonDataManagerFormat = new Client_JsonDataManagerFormatter();
             }
 
+            public void CreateJson(JsonInfo fieldInfo, string directory, string file)
+            {
+                string directoryPath = string.Concat(Managers.InI.GetValue(Defines.InIKeyType.ClientJsonPath), "/", directory);
+                if (Directory.Exists(directoryPath) == false)
+                    Directory.CreateDirectory(directoryPath);
+
+                if (file.Contains(".json") == false)
+                    file += ".json";
+
+                string fullPath = string.Concat(directoryPath, "/", file);
+                string result = _jsonFormat.GetJson(fieldInfo);
+                File.WriteAllText(fullPath, result);
+            }
+            
             public string CreateJsonDataManager(List<SourceFieldInfo> fieldInfos, string directory, string file)
             {
                 string field = "";
                 foreach (SourceFieldInfo fieldInfo in fieldInfos)
-                    field += "\t" + string.Format(_format.FieldFormat, fieldInfo.type, fieldInfo.name);
+                    field += "\t" + string.Format(_jsonFormat.FieldFormat, fieldInfo.type, fieldInfo.name);
 
                 string directoryPath = string.Concat(Managers.InI.GetValue(Defines.InIKeyType.ClientSourcePath), "/", directory);
-                string fullPath = string.Concat(directoryPath, "/", file, ".cs");
+                string fullPath = string.Concat(directoryPath, "/", StringHelper.GetScriptName(file));
                 if (Directory.Exists(directoryPath) == false)
                     Directory.CreateDirectory(directoryPath);
 
                 string className = StringHelper.GetClassName(file);
-                string result = string.Format(_format.ClientJsonDataManagerFormat, className, directory, file + ".json", field);
+                string result = string.Format(_jsonDataManagerFormat.ClientJsonDataManagerFormat, className, directory, file + ".json", field);
                 File.WriteAllText(fullPath, result);
                 return className;
             }
@@ -144,13 +158,13 @@ public partial class JsonDataManager
                 string fileName = "JsonDataManager.Loader.cs";
                 string clearSource = "";
                 foreach (string className in classNames)
-                    clearSource += string.Format("\t\t" + _format.ClearFormat, className);
+                    clearSource += string.Format("\t\t" + _jsonFormat.ClearFormat, className);
 
                 string loadSource = "";
                 foreach (string className in classNames)
-                    loadSource += string.Format("\t\t\t" + _format.LoadFormat, className);
+                    loadSource += string.Format("\t\t\t" + _jsonFormat.LoadFormat, className);
 
-                string result = string.Format(_format.ClientJsonDataManagerLoaderFormat, clearSource, loadSource);
+                string result = string.Format(_jsonDataManagerFormat.ClientJsonDataManagerLoaderFormat, clearSource, loadSource);
                 string path = string.Concat(Managers.InI.GetValue(Defines.InIKeyType.ClientSourcePath), "/", fileName);
                 File.WriteAllText(path, result);
             }

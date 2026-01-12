@@ -13,7 +13,7 @@ namespace ExcelToJson
         {
             listBox1.Items.Clear();
             foreach (var item in Managers.Convert.GetExcelFiles())
-                listBox1.Items.Add(item);
+                listBox1.Items.Add(item.Name);
 
             excelPathBox.Text = Managers.InI.GetValue(Utils.Defines.InIKeyType.ExcelPath);
             clientJsonBox.Text = Managers.InI.GetValue(Utils.Defines.InIKeyType.ClientJsonPath);
@@ -26,7 +26,7 @@ namespace ExcelToJson
         {
             listBox1.Items.Clear();
             foreach (var item in Managers.Convert.GetExcelFiles())
-                listBox1.Items.Add(item);
+                listBox1.Items.Add(item.Name);
         }
 
         private void excelPath_TextChanged(object sender, EventArgs e)
@@ -56,7 +56,11 @@ namespace ExcelToJson
 
         private void buildButton_Click(object sender, EventArgs e)
         {
-            Managers.Convert.BuildExcelDataToClient();
+            Managers.Convert.Clear();
+            bool build = Managers.Convert.BuildExcelDataToClient();
+            if (build == true)
+                MessageBox.Show("¿Ï·á");
+            
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
